@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:widgets/column.dart';
 import 'package:widgets/container.dart';
 import 'package:widgets/row.dart';
+import 'package:widgets/wrap.dart';
 import 'media_query.dart';
 
 void main() => runApp(MyApp());
@@ -31,8 +32,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: Colors.red,
-          child: MyColumn(),
+          child: MyWrap(),
         ),
       )
     );
