@@ -6,6 +6,10 @@ class MyColumn extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      verticalDirection: VerticalDirection.down,
+      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         Text("One"),
         Text("Two"),
