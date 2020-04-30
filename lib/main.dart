@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets/container.dart';
+import 'package:widgets/row.dart';
 import 'media_query.dart';
 
 void main() => runApp(MyApp());
@@ -27,9 +28,12 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Widgets Demo"),
       ),
-      body: Container(
-        child: MyContainer(),
-      ),
+      body: Center(
+        child: Container(
+          color: Colors.red,
+          child: MyRow(),
+        ),
+      )
     );
   }
 }
