@@ -8,6 +8,7 @@ The basic implementation of commonly used widgets in Flutter.
 * MediaQuery :heavy_check_mark:
 * Wrap :heavy_check_mark:
 * RaisedButton :heavy_check_mark:
+* Padding :heavy_check_mark:
 * RichText
 * ClipRRect
 * FutureBuilder
