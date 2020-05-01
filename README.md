@@ -9,7 +9,7 @@ The basic implementation of commonly used widgets in Flutter.
 * Wrap :heavy_check_mark:
 * RaisedButton :heavy_check_mark:
 * Padding :heavy_check_mark:
-* RichText
+* RichText :heavy_check_mark:
 * ClipRRect
 * FutureBuilder
 * Flexible
