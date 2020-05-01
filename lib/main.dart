@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:widgets/column.dart';
 import 'package:widgets/container.dart';
 import 'package:widgets/padding.dart';
+import 'package:widgets/rich_text.dart';
 import 'package:widgets/row.dart';
 import 'package:widgets/text.dart';
 import 'package:widgets/wrap.dart';
@@ -34,7 +35,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: MyText(),
+          child: MyRichText(),
         ),
       )
     );
