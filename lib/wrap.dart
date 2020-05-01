@@ -8,9 +8,8 @@ class MyWrap extends StatelessWidget {
 
     return Wrap(
       alignment: WrapAlignment.spaceAround,
-      crossAxisAlignment: WrapCrossAlignment.center,
-      spacing: 5,
-
+      direction: Axis.horizontal,
+      runAlignment: WrapAlignment.center,
       children: <Widget>[
         MyButton(child : Text("One", style: TextStyle(color: Colors.white, fontSize: 20),)),
         MyButton(child : Text("Two", style: TextStyle(color: Colors.white, fontSize: 20),)),

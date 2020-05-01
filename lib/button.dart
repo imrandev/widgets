@@ -8,14 +8,17 @@ class MyButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return RaisedButton(
-      color: Colors.blue,
-      padding: EdgeInsets.all(20),
-      elevation: 4,
-      child: child,
-      onPressed: () => {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: RaisedButton(
+        color: Colors.blue,
+        padding: EdgeInsets.all(15),
+        elevation: 4,
+        child: child,
+        onPressed: () => {
 
-      },
+        },
+      ),
     );
   }
 }
